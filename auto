@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # ===== CONFIG =====
-TARGET="192.168.100.25:5555"
+TARGET="192.168.43.1:5555"
 PY_FILE="xiaozhi.py"
-PY_URL="https://raw.githubusercontent.com/lvthu93/xiaozhi_voicebot_apk_Decompiler/main/xiaozhi.py"
+PY_URL="https://raw.githubusercontent.com/lvthu93/xiaozhi_voicebot_code/main/xiaozhi.py"
 
 # ===== CHECK TOOL =====
 command -v adb >/dev/null 2>&1 || { echo "❌ adb chưa cài"; exit 1; }
