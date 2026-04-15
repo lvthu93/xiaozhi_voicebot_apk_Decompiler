@@ -8,8 +8,10 @@ sh -c "$(wget -qO- https://github.com/lvthu93/xiaozhi_voicebot_code/raw/main/xia
 ```
 WINDOWS PowerShell - (Nhớ sửa lại Mac Address)
 ```
-powershell -ExecutionPolicy Bypass -File .\xiaozhi.ps1 98:bb:99:3F:XX:XX;
 iwr "https://github.com/lvthu93/xiaozhi_voicebot_code/raw/main/xiaozhi.ps1" -OutFile "C:\xiaozhi.ps1"
+```
+```
+powershell -ExecutionPolicy Bypass -File .\xiaozhi.ps1 98:bb:99:3F:XX:XX
 ```
 ----------------------------------------------------------------------------------------------------------------------------------
 # Nếu chưa biết Mac Address:
